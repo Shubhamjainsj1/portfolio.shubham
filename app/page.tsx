@@ -17,46 +17,36 @@ export default function Page() {
       </a>
       <h1 className="mb-8 text-2xl font-medium">Portfolio template!</h1>
       <div className="prose prose-neutral dark:prose-invert">
-        <p>
-          A clean, fast, and lightweight portfolio template built with Next.js,
-          Vercel, and Tailwind CSS.
-        </p>
-        <p>
-          Nextfolio has everything you need for a portfolio: MDX blog, SEO, RSS,
-          Atom & JSON feeds, analytics, Tweet & YouTube embeds, KaTeX and {""}
-          <a
-            target="_blank"
-            href="https://github.com/1msirius/Nextfolio?tab=readme-ov-file#features"
-          >
-            more
-          </a>
-          .
-        </p>
-        <p>
-          Nextfolio is{" "}
-          <a href={socialLinks.github} target="_blank">
-            open-source
-          </a>{" "}
-          and fully customizable, making it easy to add more features.
-        </p>
-        <p>
-          <a
-            href="https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2F1msirius%2FNextfolio"
-            target="_blank"
-          >
-            Deploy
-          </a>{" "}
-          your Nextfolio site with Vercel in minutes and follow the set up
-          instructions in the{" "}
-          <a href="/blog/getting-started">Getting Started</a> post.
-        </p>
-        <p>
-          Built and maintained by{" "}
-          <a href="https://imsirius.xyz/" target="_blank">
-            Sirius
-          </a>
-          .
-        </p>
+        <h2 className="text-3xl font-bold mb-4">About Me</h2>
+  <p className="mb-4">
+    I'm <strong>Shubham Jain</strong>, a final-year B.Tech undergraduate in Electronics and Communication Engineering at IIIT Naya Raipur.
+    I’m passionate about solving real-world problems through technology — whether it’s building scalable web applications,
+    training machine learning models, or simulating antenna designs.
+  </p>
+
+  <p className="mb-4">My technical interests span:</p>
+
+  <ul className="list-disc list-inside space-y-2 mb-6">
+    <li>
+      <strong>Web Development</strong>: Built multiple full-stack projects using Next.js, TailwindCSS, MongoDB, Prisma, and NextAuth.
+    </li>
+    <li>
+      <strong>AI/ML</strong>: Worked on projects involving regression, classification, and computer vision using Python, Scikit-learn, and TensorFlow.
+    </li>
+    <li>
+      <strong>Core ECE</strong>: Designed antennas in CST, performed circuit simulations in MATLAB and HSPICE, and developed embedded applications.
+    </li>
+    <li>
+      <strong>FinTech & Markets</strong>: Self-taught stock market enthusiast with an understanding of brokerage platforms like Zerodha — including order execution, APIs, and stock data analytics.
+    </li>
+    <li>
+      <strong>DSA & System Design</strong>: Continuously improving algorithmic thinking and problem-solving, with an eye toward backend architecture.
+    </li>
+  </ul>
+
+  <p>
+    I love building at the intersection of disciplines — whether it’s tech for finance, AI for hardware, or scalable systems for startups.
+  </p>
       </div>
     </section>
   );
