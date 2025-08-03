@@ -4,13 +4,13 @@ export const metaData = {
   name: "Sirius",
   ogImage: "/opengraph-image.png",
   description:
-    "A clean, fast, and lightweight portfolio template built with Next.js, Vercel, and Tailwind CSS for optimal performance.",
+    "Shubham Jain, B.Tech ECE final-year student at IIITNR. Passionate about Web Dev, AI/ML, Circuit Design, FinTech, and solving real-world tech problems.",
 };
 
 export const socialLinks = {
-  twitter: "https://x.com/1tssirius",
-  github: "https://github.com/1msirius/Nextfolio",
+  twitter: "https://x.com/Shubham72663340",
+  github: "https://github.com/Shubhamjainsj1",
   instagram: "https://www.instagram.com/",
-  linkedin: "https://www.linkedin.com/",
-  email: "mailto:example@gmail.com",
+  linkedin: "www.linkedin.com/in/shubhamjainiiitnr",
+  email: "jainshubham150304@gmail.com",
 };
