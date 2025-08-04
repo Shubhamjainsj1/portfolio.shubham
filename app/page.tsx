@@ -4,9 +4,9 @@ import { socialLinks } from "./lib/config";
 export default function Page() {
   return (
     <section>
-      <a href={socialLinks.twitter} target="_blank">
+      
         <Image
-          src="/profile.png"
+          src="https://collection.cloudinary.com/drzspkte1/5888f1521969ecc30b6b26c90a035f3b"
           alt="Profile photo"
           className="rounded-full bg-gray-100 block lg:mt-5 mt-0 lg:mb-5 mb-10 mx-auto sm:float-right sm:ml-5 sm:mb-5 grayscale hover:grayscale-0"
           unoptimized
@@ -15,7 +15,7 @@ export default function Page() {
           priority
         />
       </a>
-      <h1 className="mb-8 text-2xl font-medium">Portfolio template!</h1>
+      
       <div className="prose prose-neutral dark:prose-invert">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
   <p className="mb-4">
