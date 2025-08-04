@@ -14,7 +14,7 @@ export default function Page() {
           height={160}
           priority
         />
-      </a>
+      
       
       <div className="prose prose-neutral dark:prose-invert">
         <h2 className="text-3xl font-bold mb-4">About Me</h2>
